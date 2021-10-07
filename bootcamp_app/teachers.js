@@ -22,6 +22,6 @@ ORDER BY teachers.name;
   .then(res => {
     console.log(res.rows);
     res.rows.forEach((row) => {
-      console.log(`${row.cohort}: ${row.teacher} `)
+      console.log(`${row.cohort}: ${row.teacher} `);
     });
   });
